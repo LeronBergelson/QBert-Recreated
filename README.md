@@ -18,7 +18,7 @@ Numpad 3 or Right Arrow : Move bottom-right.<br />
 Player can press the “Esc” key at any point during gameplay to pause the game. From there, the player can return to the game, or exit and return to the main menu
 
 ## Platform Functionality.
-When QBert lands on a platform for the first time, it changes to the colour listed in the “Change To” icon text. Platform remains that colour for rest of session.
+When QBert lands on a platform for the first time, it changes to the colour listed in the “Change To” icon text. Platform remains that colour for rest of session.<br /><br />
 ![untitled](https://user-images.githubusercontent.com/19450714/37858776-5441f06c-2ee0-11e8-825e-4c2ad35dad53.png)
 
 ## Elevator functionality.
@@ -26,7 +26,7 @@ When QBert hops onto an elevator, it takes him back to the top platform, and dis
 
 ## Red & Green Ball Functionality.
 Every so often, a red or green ball spawns on the second level of the pyramid (right underneath the 
-top platform). The balls hop down the pyramid, randomly heading bottom-left or bottom-right with each hop. Red Balls should spawn more often than Green ones. <br />
+top platform). The balls hop down the pyramid, randomly heading bottom-left or bottom-right with each hop. Red Balls should spawn more often than Green ones. <br /><br />
 ![giphy](https://user-images.githubusercontent.com/19450714/37858671-8d7b82b4-2ede-11e8-9940-a399cdd875d0.gif)
 
 ## Coily.
@@ -34,7 +34,7 @@ Behaviour Coily begins as a purple ball, and spawns at the second level near the
 Coily randomly  picks from one of the two platforms available. There can only be one Coily present at any point during the level. If there is no Coily on the pyramid, one spawns within the next two or three enemy spawns.
  
 ## Win Condition.
-When QBert changes the colour of each platform on the pyramid, he defeats the level. The pyramid flashes several colours and victory music should play and the player’s bonus points are awarded, before the player is returned to the Main Menu.
+When QBert changes the colour of each platform on the pyramid, he defeats the level. The pyramid flashes several colours and victory music should play and the player’s bonus points are awarded, before the player is returned to the Main Menu.<br /><br />
 ![giphy6](https://user-images.githubusercontent.com/19450714/37858774-4e87d8c6-2ee0-11e8-895e-31a03a50879b.gif)
 
 ## Game Over.
@@ -45,9 +45,9 @@ If, after the player beats the level or suffers a Game Over, she has a high scor
 
 ## Death States.
 QBert runs into a red or purple ball – after which, he utters his trademark curse word, “@!#?@!”.<br />
-QBert runs into Coily– after which, he utters his trademark curse word, “@!#?@!”.<br />
-![giphy5](https://user-images.githubusercontent.com/19450714/37858676-9132fd24-2ede-11e8-8ed1-96273250cb5a.gif)
-QBert jumps off the pyramid.<br />
+QBert runs into Coily– after which, he utters his trademark curse word, “@!#?@!”.<br /><br />
+![giphy5](https://user-images.githubusercontent.com/19450714/37858676-9132fd24-2ede-11e8-8ed1-96273250cb5a.gif)<br /><br />
+QBert jumps off the pyramid.<br /><br />
 ![giphy3](https://user-images.githubusercontent.com/19450714/37858673-8f5948f0-2ede-11e8-9f89-d45de812163a.gif)
 
 ## Player Lives/Restart.
@@ -55,7 +55,7 @@ Player has 3 lives, depicted by the icons on the left side of the screen – 2 p
 
 ## Coily Defeat
 If QBert gets onto an elevator, Coilywill try and follow him, jumping off the pyramid. <br />
-If Coily jumps off the pyramid, all enemies disappear and no new enemies spawn for around 5 seconds BUT Coily won’t jump off the platform if QBert lands back on the pyramid before Coilycan jump. He will simply redirect and hunt QBert again. <br />
+If Coily jumps off the pyramid, all enemies disappear and no new enemies spawn for around 5 seconds BUT Coily won’t jump off the platform if QBert lands back on the pyramid before Coilycan jump. He will simply redirect and hunt QBert again. <br /><br />
 ![giphy4](https://user-images.githubusercontent.com/19450714/37858674-901a1e36-2ede-11e8-8adc-ec406624d062.gif)
 
 ## SFX Implemented, which include the following:
