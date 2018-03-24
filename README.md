@@ -15,10 +15,10 @@ Leaderboard.
 The player can control Q*Bert, getting him to hop on an adjacent platform on the pyramid, using the 
 following controls: 
 
-Numpad 7 or Left Arrow: Move top-left 
-Numpad 9: Move top-right
-Numpad1: Move bottom-left
-Numpad3: Move bottom-right
+Numpad 7 or Left Arrow: Move top-left.
+Numpad 9: Move top-right.
+Numpad1: Move bottom-left.
+Numpad3: Move bottom-right.
 
 ## Pause Menu:
 Player can press the “Esc” key at any point during gameplay to pause the game. From there, the player 
