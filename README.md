@@ -68,7 +68,7 @@ QBert gets a Green Ball.<br />
 QBert dies.
 
 ## Scoring 
-– includes the following:<br />
+Includes the following:<br />
 Change a cube to the destination colour: 25 points.<br />
 Catch a green ball: 100 points.<br />
 Defeating Coily: 500 points.<br />
