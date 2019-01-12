@@ -4,7 +4,7 @@
 Q*bert is an arcade game developed and published by Gottlieb in 1982. It is a 2D action game with puzzle elements that uses isometric graphics to create a pseudo-3D effect. The objective is to change the color of every cube in a pyramid by making the on-screen character hop on top of the cube while avoiding obstacles and enemies.
 
 ## Platform.
-Re-done using the cross-platform game engine, Unity, this QBert, 2D Based Game, utilizes game features and assets based on the original Q*bert.
+Recreated using the cross-platform game engine Unity, this Q*bert is a 2D Based Game that utilizes game features and assets based on the original Q*bert.
 
 ## Player Controls.
 The player can control QBert, getting him to hop on an adjacent platform on the pyramid, using the following controls: 
