@@ -21,7 +21,7 @@ Player can press the “Esc” key at any point during gameplay to pause the gam
 
 ## Platform Functionality.
 When QBert lands on a platform for the first time, it changes to the colour listed in the “Change To” icon text. Platform remains that colour for rest of session.<br /><br />
-![untitled](https://user-images.githubusercontent.com/19450714/37858776-5441f06c-2ee0-11e8-825e-4c2ad35dad53.png)
+![game2030 qbert 2019-01-11 22_11_40](https://user-images.githubusercontent.com/19450714/51068852-234c9080-15f2-11e9-9df1-7192f9e005b7.png)
 
 ## Elevator functionality.
 When QBert hops onto an elevator, it takes him back to the top platform, and disappears from the level
