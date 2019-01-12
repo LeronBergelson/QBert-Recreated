@@ -27,7 +27,7 @@ When QBert hops onto an elevator, it takes him back to the top platform, and dis
 ## Red & Green Ball Functionality.
 Every so often, a red or green ball spawns on the second level of the pyramid (right underneath the 
 top platform). The balls hop down the pyramid, randomly heading bottom-left or bottom-right with each hop. Red Balls should spawn more often than Green ones. <br /><br />
-![giphy](https://user-images.githubusercontent.com/19450714/37858671-8d7b82b4-2ede-11e8-9940-a399cdd875d0.gif)
+![giphy](https://user-images.githubusercontent.com/19450714/51068782-e46a0b00-15f0-11e9-8e2c-a0ccb1e68d18.gif)
 
 ## Coily.
 Behaviour Coily begins as a purple ball, and spawns at the second level near the beginning of the session. It bounces down to the bottom level, behaving just like a red ball. Once it reaches the bottom level, the ball hatches and Coily springs out Coily hops on the platforms and chases Q*Bert across the pyramid It always makes the move that gets it closest to Q*Bert. If there is an even choice, 
@@ -35,7 +35,7 @@ Coily randomly  picks from one of the two platforms available. There can only be
  
 ## Win Condition.
 When QBert changes the colour of each platform on the pyramid, he defeats the level. The pyramid flashes several colours and victory music should play and the player’s bonus points are awarded, before the player is returned to the Main Menu.<br /><br />
-![giphy6](https://user-images.githubusercontent.com/19450714/37858774-4e87d8c6-2ee0-11e8-895e-31a03a50879b.gif)
+![giphy3](https://user-images.githubusercontent.com/19450714/51068784-e46a0b00-15f0-11e9-9baf-5160fca1887a.gif)
 
 ## Game Over.
 If the player dies and there are no lives remaining, it triggers the Game Over state. The text “Game Over” appears on the screen, and after a few seconds, the player is returned to the main menu.
@@ -46,9 +46,9 @@ If, after the player beats the level or suffers a Game Over, she has a high scor
 ## Death States.
 QBert runs into a red or purple ball – after which, he utters his trademark curse word, “@!#?@!”.<br />
 QBert runs into Coily– after which, he utters his trademark curse word, “@!#?@!”.<br /><br />
-![giphy5](https://user-images.githubusercontent.com/19450714/37858676-9132fd24-2ede-11e8-8ed1-96273250cb5a.gif)<br /><br />
+![giphy5](https://user-images.githubusercontent.com/19450714/51068781-e46a0b00-15f0-11e9-9851-d3947590bb3b.gif)
 QBert jumps off the pyramid.<br /><br />
-![giphy3](https://user-images.githubusercontent.com/19450714/37858673-8f5948f0-2ede-11e8-9f89-d45de812163a.gif)
+![giphy4](https://user-images.githubusercontent.com/19450714/51068785-e46a0b00-15f0-11e9-9900-d9e86c91b313.gif)                                                                                                                              
 
 ## Player Lives/Restart.
 Player has 3 lives, depicted by the icons on the left side of the screen – 2 present at start of game. Every time the player dies, she loses one life, and 1 of the icons disappears. If the player has a life left after death, she restarts where QBert died on the pyramid, and the state of the pyramid remains the same (for example, if the player landed on 3 platforms before dying, those 3 platforms will remain changed). If the player jumped off the pyramid, QBert restarts at the top platform.
@@ -56,7 +56,7 @@ Player has 3 lives, depicted by the icons on the left side of the screen – 2 p
 ## Coily Defeat
 If QBert gets onto an elevator, Coilywill try and follow him, jumping off the pyramid. <br />
 If Coily jumps off the pyramid, all enemies disappear and no new enemies spawn for around 5 seconds BUT Coily won’t jump off the platform if QBert lands back on the pyramid before Coilycan jump. He will simply redirect and hunt QBert again. <br /><br />
-![giphy4](https://user-images.githubusercontent.com/19450714/37858674-901a1e36-2ede-11e8-8adc-ec406624d062.gif)
+![giphy2](https://user-images.githubusercontent.com/19450714/51068783-e46a0b00-15f0-11e9-9449-721dc95271d0.gif)
 
 ## SFX Implemented, which include the following:
 QBert lands on a platform.<br />
@@ -85,4 +85,3 @@ Arrows animate beside the “Change To” pyramid block.<br />
 Top 10 scores are visible on the Leaderboard screen from the Main Menu.
 
 
-                                                                                                                                        
