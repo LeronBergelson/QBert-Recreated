@@ -1,6 +1,6 @@
-# QBert-Recreated
+# Qbert-Recreated
 
-## Q*Bert Description.
+## Q*bert Description.
 Q*bert is an arcade game developed and published by Gottlieb in 1982. It is a 2D action game with puzzle elements that uses isometric graphics to create a pseudo-3D effect. The objective is to change the color of every cube in a pyramid by making the on-screen character hop on top of the cube while avoiding obstacles and enemies. <br />
 <br />
 ![game2030 qbert 2019-01-11 22_11_01](https://user-images.githubusercontent.com/19450714/51068820-9275b500-15f1-11e9-84dd-ae9e2fb0bf79.png)
@@ -9,7 +9,7 @@ Q*bert is an arcade game developed and published by Gottlieb in 1982. It is a 2D
 Recreated using the cross-platform game engine Unity, this Q*bert is a 2D Based Game that utilizes game features and assets based on the original Q*bert.
 
 ## Player Controls.
-The player can control QBert, getting him to hop on an adjacent platform on the pyramid, using the following controls: 
+The player can control Qbert, getting him to hop on an adjacent platform on the pyramid, using the following controls: 
 
 Numpad 7 or Left Arrow: Move top-left.<br />
 Numpad 9 or Up Arrow: Move top-right.<br />
@@ -20,11 +20,11 @@ Numpad 3 or Right Arrow : Move bottom-right.<br />
 Player can press the “Esc” key at any point during gameplay to pause the game. From there, the player can return to the game, or exit and return to the main menu
 
 ## Platform Functionality.
-When QBert lands on a platform for the first time, it changes to the colour listed in the “Change To” icon text. Platform remains that colour for rest of session.<br /><br />
+When Qbert lands on a platform for the first time, it changes to the colour listed in the “Change To” icon text. Platform remains that colour for rest of session.<br /><br />
 ![game2030 qbert 2019-01-11 22_11_40](https://user-images.githubusercontent.com/19450714/51068852-234c9080-15f2-11e9-9df1-7192f9e005b7.png)
 
 ## Elevator functionality.
-When QBert hops onto an elevator, it takes him back to the top platform, and disappears from the level
+When Qbert hops onto an elevator, it takes him back to the top platform, and disappears from the level
 
 ## Red & Green Ball Functionality.
 Every so often, a red or green ball spawns on the second level of the pyramid (right underneath the 
@@ -32,11 +32,11 @@ top platform). The balls hop down the pyramid, randomly heading bottom-left or b
 ![giphy](https://user-images.githubusercontent.com/19450714/51068782-e46a0b00-15f0-11e9-8e2c-a0ccb1e68d18.gif)
 
 ## Coily.
-Behaviour Coily begins as a purple ball, and spawns at the second level near the beginning of the session. It bounces down to the bottom level, behaving just like a red ball. Once it reaches the bottom level, the ball hatches and Coily springs out Coily hops on the platforms and chases Q*Bert across the pyramid It always makes the move that gets it closest to Q*Bert. If there is an even choice, 
+Behaviour Coily begins as a purple ball, and spawns at the second level near the beginning of the session. It bounces down to the bottom level, behaving just like a red ball. Once it reaches the bottom level, the ball hatches and Coily springs out Coily hops on the platforms and chases Q*bert across the pyramid It always makes the move that gets it closest to Q*bert. If there is an even choice, 
 Coily randomly  picks from one of the two platforms available. There can only be one Coily present at any point during the level. If there is no Coily on the pyramid, one spawns within the next two or three enemy spawns.
  
 ## Win Condition.
-When QBert changes the colour of each platform on the pyramid, he defeats the level. The pyramid flashes several colours and victory music should play and the player’s bonus points are awarded, before the player is returned to the Main Menu.<br /><br />
+When Qbert changes the colour of each platform on the pyramid, he defeats the level. The pyramid flashes several colours and victory music should play and the player’s bonus points are awarded, before the player is returned to the Main Menu.<br /><br />
 ![giphy3](https://user-images.githubusercontent.com/19450714/51068784-e46a0b00-15f0-11e9-9baf-5160fca1887a.gif)
 
 ## Game Over.
@@ -46,28 +46,28 @@ If the player dies and there are no lives remaining, it triggers the Game Over s
 If, after the player beats the level or suffers a Game Over, she has a high score that cracks the Top 10, she is asked enter her initials, and her score is now in the appropriate slot on the leaderboard screen.
 
 ## Death States.
-QBert runs into a red or purple ball – after which, he utters his trademark curse word, “@!#?@!”.<br />
-QBert runs into Coily– after which, he utters his trademark curse word, “@!#?@!”.<br /><br />
+Qbert runs into a red or purple ball – after which, he utters his trademark curse word, “@!#?@!”.<br />
+Qbert runs into Coily– after which, he utters his trademark curse word, “@!#?@!”.<br /><br />
 ![giphy5](https://user-images.githubusercontent.com/19450714/51068781-e46a0b00-15f0-11e9-9851-d3947590bb3b.gif)
-QBert jumps off the pyramid.<br /><br />
+Qbert jumps off the pyramid.<br /><br />
 ![giphy4](https://user-images.githubusercontent.com/19450714/51068785-e46a0b00-15f0-11e9-9900-d9e86c91b313.gif)                                                                                                                              
 
 ## Player Lives/Restart.
-Player has 3 lives, depicted by the icons on the left side of the screen – 2 present at start of game. Every time the player dies, she loses one life, and 1 of the icons disappears. If the player has a life left after death, she restarts where QBert died on the pyramid, and the state of the pyramid remains the same (for example, if the player landed on 3 platforms before dying, those 3 platforms will remain changed). If the player jumped off the pyramid, QBert restarts at the top platform.
+Player has 3 lives, depicted by the icons on the left side of the screen – 2 present at start of game. Every time the player dies, she loses one life, and 1 of the icons disappears. If the player has a life left after death, she restarts where Qbert died on the pyramid, and the state of the pyramid remains the same (for example, if the player landed on 3 platforms before dying, those 3 platforms will remain changed). If the player jumped off the pyramid, Qbert restarts at the top platform.
 
 ## Coily Defeat
-If QBert gets onto an elevator, Coilywill try and follow him, jumping off the pyramid. <br />
-If Coily jumps off the pyramid, all enemies disappear and no new enemies spawn for around 5 seconds BUT Coily won’t jump off the platform if QBert lands back on the pyramid before Coilycan jump. He will simply redirect and hunt QBert again. <br /><br />
+If Qbert gets onto an elevator, Coilywill try and follow him, jumping off the pyramid. <br />
+If Coily jumps off the pyramid, all enemies disappear and no new enemies spawn for around 5 seconds BUT Coily won’t jump off the platform if Qbert lands back on the pyramid before Coilycan jump. He will simply redirect and hunt Qbert again. <br /><br />
 ![giphy2](https://user-images.githubusercontent.com/19450714/51068783-e46a0b00-15f0-11e9-9449-721dc95271d0.gif)
 
 ## SFX Implemented, which include the following:
-QBert lands on a platform.<br />
+Qbert lands on a platform.<br />
 Ball lands on a platform (any colour).<br />
-QBert lands on an elevator.<br />
-QBert collides with Coily.<br />
+Qbert lands on an elevator.<br />
+Qbert collides with Coily.<br />
 Coily lands on a platform.<br />
-QBert gets a Green Ball.<br />
-QBert dies.
+Qbert gets a Green Ball.<br />
+Qbert dies.
 
 ## Scoring 
 Includes the following:<br />
